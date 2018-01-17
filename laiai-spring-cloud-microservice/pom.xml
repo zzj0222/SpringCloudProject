@@ -7,6 +7,7 @@
    <modules>
         <module>laiai-cloud-discovery-eureka</module>
         <module>laiai-cloud-config</module>
+        <module>laiai-cloud-config-repository</module>
    </modules>
   	<parent>
 		<groupId>org.springframework.boot</groupId>

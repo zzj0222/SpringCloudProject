@@ -1,0 +1,7 @@
+#随意设置的一个参数
+myblog:
+  name: learning
+  url: http://zzjtest.imwork.net
+  location: Shenzhen
+config-client:
+  name: laiai
