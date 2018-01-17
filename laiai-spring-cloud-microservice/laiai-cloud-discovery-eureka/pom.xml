@@ -27,10 +27,10 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- Eureka注册中心加入权限 -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.boot</groupId> -->
+<!-- 			<artifactId>spring-boot-starter-security</artifactId> -->
+<!-- 		</dependency> -->
 	</dependencies>
 	<!--构建中心 -->
 	<build>
