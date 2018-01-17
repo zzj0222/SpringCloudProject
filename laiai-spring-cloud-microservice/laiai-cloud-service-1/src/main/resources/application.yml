@@ -1,0 +1,17 @@
+#服务注册中心配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9081/eureka/
+  instance:
+    appname: cloud-service
+    lease-renewal-interval-in-seconds: 1
+
+server:
+  port: 9071
+
+spring:
+  application:
+    name: cloud-service
+
+

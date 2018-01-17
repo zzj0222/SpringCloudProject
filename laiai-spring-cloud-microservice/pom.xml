@@ -9,6 +9,9 @@
         <module>laiai-cloud-config</module>
         <module>laiai-cloud-config-repository</module>
         <module>laiai-cloud-config-client</module>
+        <module>laiai-cloud-service-1</module>
+        <module>laiai-cloud-service-2</module>
+        <module>laiai-cloud-ribbon-client</module>
    </modules>
   	<parent>
 		<groupId>org.springframework.boot</groupId>

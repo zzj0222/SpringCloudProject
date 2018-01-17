@@ -1,0 +1,13 @@
+#服务端口
+server: 
+  port: 9091
+#spring设置  
+spring:
+  application:
+    #本项目名称
+    name: config-client
+#服务注册中心配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9081/eureka/
