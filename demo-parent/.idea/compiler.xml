@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apollo-adminservice" />
+        <module name="apollo-assembly" />
+        <module name="apollo-biz" />
+        <module name="apollo-buildtools" />
+        <module name="apollo-client" />
+        <module name="apollo-common" />
+        <module name="apollo-configservice" />
+        <module name="apollo-core" />
+        <module name="apollo-demo" />
+        <module name="apollo-mockserver" />
+        <module name="apollo-openapi" />
+        <module name="apollo-portal" />
+        <module name="cloud-grpc-client" />
+        <module name="cloud-grpc-server" />
+        <module name="demo-admin" />
+        <module name="demo-admin (1)" />
+        <module name="demo-admin-gateway" />
+        <module name="demo-auth" />
+        <module name="demo-config-server" />
+        <module name="demo-core" />
+        <module name="demo-dubbo-consumer" />
+        <module name="demo-dubbo-provider" />
+        <module name="demo-dubbo-provider-interface" />
+        <module name="demo-eureka" />
+        <module name="demo-eureka2" />
+        <module name="demo-gateway" />
+        <module name="demo-grpc-client" />
+        <module name="demo-grpc-lib" />
+        <module name="demo-grpc-server" />
+        <module name="demo-member" />
+        <module name="demo-message" />
+        <module name="demo-model" />
+        <module name="demo-mq" />
+        <module name="demo-order" />
+        <module name="demo-payment" />
+        <module name="demo-product" />
+        <module name="demo-security-core" />
+        <module name="demo-utils" />
+        <module name="demo-zinpkin" />
+        <module name="healthcheck-sofa-boot-starter" />
+        <module name="infra-sofa-boot-starter" />
+        <module name="isle-sofa-boot-starter" />
+        <module name="rocketmq-acl" />
+        <module name="rocketmq-broker" />
+        <module name="rocketmq-client" />
+        <module name="rocketmq-common" />
+        <module name="rocketmq-example" />
+        <module name="rocketmq-filter" />
+        <module name="rocketmq-logappender" />
+        <module name="rocketmq-logging" />
+        <module name="rocketmq-namesrv" />
+        <module name="rocketmq-openmessaging" />
+        <module name="rocketmq-remoting" />
+        <module name="rocketmq-srvutil" />
+        <module name="rocketmq-store" />
+        <module name="rocketmq-test" />
+        <module name="rocketmq-tools" />
+        <module name="runtime-sofa-boot-plugin" />
+        <module name="runtime-sofa-boot-starter" />
+        <module name="sofa-member" />
+        <module name="sofa-rpc-all" />
+        <module name="sofa-rpc-api" />
+        <module name="sofa-rpc-api-compatible" />
+        <module name="sofa-rpc-bootstrap-bolt" />
+        <module name="sofa-rpc-bootstrap-dubbo" />
+        <module name="sofa-rpc-bootstrap-http" />
+        <module name="sofa-rpc-bootstrap-rest" />
+        <module name="sofa-rpc-client" />
+        <module name="sofa-rpc-codec" />
+        <module name="sofa-rpc-codec-jackson" />
+        <module name="sofa-rpc-codec-protobuf" />
+        <module name="sofa-rpc-codec-sofa-hessian" />
+        <module name="sofa-rpc-common" />
+        <module name="sofa-rpc-example" />
+        <module name="sofa-rpc-exception" />
+        <module name="sofa-rpc-extension-common" />
+        <module name="sofa-rpc-fault-hystrix" />
+        <module name="sofa-rpc-fault-tolerance" />
+        <module name="sofa-rpc-filter" />
+        <module name="sofa-rpc-log" />
+        <module name="sofa-rpc-log-common-tools" />
+        <module name="sofa-rpc-metrics-lookout" />
+        <module name="sofa-rpc-proxy" />
+        <module name="sofa-rpc-registry-consul" />
+        <module name="sofa-rpc-registry-local" />
+        <module name="sofa-rpc-registry-mesh" />
+        <module name="sofa-rpc-registry-nacos" />
+        <module name="sofa-rpc-registry-zk" />
+        <module name="sofa-rpc-remoting-bolt" />
+        <module name="sofa-rpc-remoting-http" />
+        <module name="sofa-rpc-remoting-resteasy" />
+        <module name="sofa-rpc-test-common" />
+        <module name="sofa-rpc-test-integration" />
+        <module name="sofa-rpc-test-integration-3rd" />
+        <module name="sofa-rpc-tracer-opentracing" />
+        <module name="sofa-rpc-tracer-opentracing-resteasy" />
+        <module name="sofa-rpc-transport" />
+        <module name="test-sofa-boot-starter" />
+        <module name="xxl-job-admin" />
+        <module name="xxl-job-core" />
+        <module name="xxl-job-executor-sample-frameless" />
+        <module name="xxl-job-executor-sample-jboot" />
+        <module name="xxl-job-executor-sample-jfinal" />
+        <module name="xxl-job-executor-sample-nutz" />
+        <module name="xxl-job-executor-sample-spring" />
+        <module name="xxl-job-executor-sample-springboot" />
+        <module name="xxl-rpc-core" />
+        <module name="xxl-rpc-sample-frameless-api" />
+        <module name="xxl-rpc-sample-frameless-client" />
+        <module name="xxl-rpc-sample-frameless-server" />
+        <module name="xxl-rpc-sample-jfinal-api" />
+        <module name="xxl-rpc-sample-jfinal-client" />
+        <module name="xxl-rpc-sample-jfinal-server" />
+        <module name="xxl-rpc-sample-springboot-api" />
+        <module name="xxl-rpc-sample-springboot-client" />
+        <module name="xxl-rpc-sample-springboot-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="apollo" target="1.8" />
+      <module name="apollo-adminservice" target="1.8" />
+      <module name="apollo-assembly" target="1.8" />
+      <module name="apollo-biz" target="1.8" />
+      <module name="apollo-biz (1)" target="1.8" />
+      <module name="apollo-buildtools" target="1.8" />
+      <module name="apollo-client" target="1.7" />
+      <module name="apollo-common" target="1.8" />
+      <module name="apollo-configservice" target="1.8" />
+      <module name="apollo-core" target="1.7" />
+      <module name="apollo-demo" target="1.7" />
+      <module name="apollo-mockserver" target="1.7" />
+      <module name="apollo-openapi" target="1.7" />
+      <module name="apollo-portal" target="1.8" />
+      <module name="demo-admin" target="1.8" />
+      <module name="demo-admin (1)" target="1.8" />
+      <module name="demo-admin-gateway" target="1.8" />
+      <module name="demo-auth" target="1.8" />
+      <module name="demo-config-server" target="1.8" />
+      <module name="demo-core" target="1.8" />
+      <module name="demo-dubbo-consumer" target="1.8" />
+      <module name="demo-dubbo-provider" target="1.8" />
+      <module name="demo-dubbo-provider-api" target="1.8" />
+      <module name="demo-dubbo-provider-interface" target="1.8" />
+      <module name="demo-eureka" target="1.8" />
+      <module name="demo-eureka2" target="1.8" />
+      <module name="demo-gateway" target="1.8" />
+      <module name="demo-grpc-client" target="1.8" />
+      <module name="demo-grpc-lib" target="1.8" />
+      <module name="demo-grpc-server" target="1.8" />
+      <module name="demo-member" target="1.8" />
+      <module name="demo-message" target="1.8" />
+      <module name="demo-model" target="1.8" />
+      <module name="demo-mq" target="1.8" />
+      <module name="demo-order" target="1.8" />
+      <module name="demo-parent" target="1.8" />
+      <module name="demo-payment" target="1.8" />
+      <module name="demo-product" target="1.8" />
+      <module name="demo-security-core" target="1.8" />
+      <module name="demo-utils" target="1.8" />
+      <module name="demo-zinpkin" target="1.8" />
+      <module name="healthcheck-sofa-boot-starter" target="1.8" />
+      <module name="infra-sofa-boot-starter" target="1.8" />
+      <module name="isle-sofa-boot-starter" target="1.8" />
+      <module name="rocketmq-acl" target="1.8" />
+      <module name="rocketmq-all" target="1.8" />
+      <module name="rocketmq-broker" target="1.8" />
+      <module name="rocketmq-client" target="1.6" />
+      <module name="rocketmq-common" target="1.6" />
+      <module name="rocketmq-distribution" target="1.8" />
+      <module name="rocketmq-example" target="1.8" />
+      <module name="rocketmq-filter" target="1.8" />
+      <module name="rocketmq-logappender" target="1.8" />
+      <module name="rocketmq-logging" target="1.6" />
+      <module name="rocketmq-namesrv" target="1.8" />
+      <module name="rocketmq-openmessaging" target="1.8" />
+      <module name="rocketmq-remoting" target="1.6" />
+      <module name="rocketmq-srvutil" target="1.8" />
+      <module name="rocketmq-store" target="1.8" />
+      <module name="rocketmq-test" target="1.8" />
+      <module name="rocketmq-tools" target="1.8" />
+      <module name="runtime-sofa-boot-plugin" target="1.8" />
+      <module name="runtime-sofa-boot-starter" target="1.8" />
+      <module name="sofa-boot-gradle-plugin" target="1.8" />
+      <module name="sofa-boot-runtime" target="1.8" />
+      <module name="sofa-member" target="1.8" />
+      <module name="sofa-rpc-all" target="1.8" />
+      <module name="sofa-rpc-api" target="1.8" />
+      <module name="sofa-rpc-api-compatible" target="1.8" />
+      <module name="sofa-rpc-bom" target="1.5" />
+      <module name="sofa-rpc-bootstrap-bolt" target="1.8" />
+      <module name="sofa-rpc-bootstrap-dubbo" target="1.8" />
+      <module name="sofa-rpc-bootstrap-http" target="1.8" />
+      <module name="sofa-rpc-bootstrap-rest" target="1.8" />
+      <module name="sofa-rpc-client" target="1.8" />
+      <module name="sofa-rpc-codec" target="1.8" />
+      <module name="sofa-rpc-codec-jackson" target="1.8" />
+      <module name="sofa-rpc-codec-protobuf" target="1.8" />
+      <module name="sofa-rpc-codec-sofa-hessian" target="1.8" />
+      <module name="sofa-rpc-common" target="1.8" />
+      <module name="sofa-rpc-core" target="1.8" />
+      <module name="sofa-rpc-core-impl" target="1.8" />
+      <module name="sofa-rpc-example" target="1.8" />
+      <module name="sofa-rpc-exception" target="1.8" />
+      <module name="sofa-rpc-extension-common" target="1.6" />
+      <module name="sofa-rpc-extension-impl" target="1.8" />
+      <module name="sofa-rpc-fault-hystrix" target="1.8" />
+      <module name="sofa-rpc-fault-tolerance" target="1.8" />
+      <module name="sofa-rpc-filter" target="1.8" />
+      <module name="sofa-rpc-log" target="1.8" />
+      <module name="sofa-rpc-log-common-tools" target="1.8" />
+      <module name="sofa-rpc-metrics-lookout" target="1.8" />
+      <module name="sofa-rpc-parent" target="1.8" />
+      <module name="sofa-rpc-proxy" target="1.8" />
+      <module name="sofa-rpc-registry-consul" target="1.8" />
+      <module name="sofa-rpc-registry-local" target="1.8" />
+      <module name="sofa-rpc-registry-mesh" target="1.8" />
+      <module name="sofa-rpc-registry-nacos" target="1.8" />
+      <module name="sofa-rpc-registry-zk" target="1.8" />
+      <module name="sofa-rpc-remoting-bolt" target="1.8" />
+      <module name="sofa-rpc-remoting-http" target="1.8" />
+      <module name="sofa-rpc-remoting-resteasy" target="1.8" />
+      <module name="sofa-rpc-test" target="1.8" />
+      <module name="sofa-rpc-test-common" target="1.8" />
+      <module name="sofa-rpc-test-integration" target="1.8" />
+      <module name="sofa-rpc-test-integration-3rd" target="1.8" />
+      <module name="sofa-rpc-tracer-opentracing" target="1.8" />
+      <module name="sofa-rpc-tracer-opentracing-resteasy" target="1.8" />
+      <module name="sofa-rpc-transport" target="1.8" />
+      <module name="test-sofa-boot-starter" target="1.8" />
+      <module name="xxl-job" target="1.7" />
+      <module name="xxl-job-admin" target="1.7" />
+      <module name="xxl-job-core" target="1.7" />
+      <module name="xxl-job-executor-sample-frameless" target="1.7" />
+      <module name="xxl-job-executor-sample-jboot" target="1.8" />
+      <module name="xxl-job-executor-sample-jfinal" target="1.7" />
+      <module name="xxl-job-executor-sample-nutz" target="1.7" />
+      <module name="xxl-job-executor-sample-spring" target="1.7" />
+      <module name="xxl-job-executor-sample-springboot" target="1.7" />
+      <module name="xxl-job-executor-samples" target="1.7" />
+      <module name="xxl-rpc" target="1.7" />
+      <module name="xxl-rpc-core" target="1.7" />
+      <module name="xxl-rpc-sample-frameless" target="1.7" />
+      <module name="xxl-rpc-sample-frameless-api" target="1.7" />
+      <module name="xxl-rpc-sample-frameless-client" target="1.7" />
+      <module name="xxl-rpc-sample-frameless-server" target="1.7" />
+      <module name="xxl-rpc-sample-jfinal" target="1.7" />
+      <module name="xxl-rpc-sample-jfinal-api" target="1.7" />
+      <module name="xxl-rpc-sample-jfinal-client" target="1.7" />
+      <module name="xxl-rpc-sample-jfinal-server" target="1.7" />
+      <module name="xxl-rpc-sample-springboot" target="1.7" />
+      <module name="xxl-rpc-sample-springboot-api" target="1.7" />
+      <module name="xxl-rpc-sample-springboot-client" target="1.7" />
+      <module name="xxl-rpc-sample-springboot-server" target="1.7" />
+      <module name="xxl-rpc-samples" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+
+spring:
+  application:
+    name: demo-dubbo-consumer
+
+server:
+  port: 2880
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://demo:demo!2018@demo-eureka-1:8762/eureka/,http://demo:demo!2018@demo-eureka-2:8763/eureka/
+
+
+management:
+  server:
+    port: 2881
+
+demo:
+  service:
+    version: 1.0-SNAPSHOT
+
+dubbo:
+  application:
+    id: demo-dubbo-consumer
+    name: demo-dubbo-consumer
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 20880
+

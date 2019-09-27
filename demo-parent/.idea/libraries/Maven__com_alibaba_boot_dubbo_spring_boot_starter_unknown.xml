@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba.boot:dubbo-spring-boot-starter:unknown">
+    <CLASSES>
+      <root url="jar://E:/repository/com/alibaba/boot/dubbo-spring-boot-starter/unknown/dubbo-spring-boot-starter-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/com/alibaba/boot/dubbo-spring-boot-starter/unknown/dubbo-spring-boot-starter-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/com/alibaba/boot/dubbo-spring-boot-starter/unknown/dubbo-spring-boot-starter-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

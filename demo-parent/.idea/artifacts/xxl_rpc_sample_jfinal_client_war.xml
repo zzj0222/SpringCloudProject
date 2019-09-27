@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xxl-rpc-sample-jfinal-client:war">
+    <output-path>$PROJECT_DIR$/../xxl-job-master/xxl-rpc-master/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-client/target</output-path>
+    <root id="archive" name="xxl-rpc-sample-jfinal-client-1.4.2-SNAPSHOT.war">
+      <element id="artifact" artifact-name="xxl-rpc-sample-jfinal-client:war exploded" />
+    </root>
+  </artifact>
+</component>

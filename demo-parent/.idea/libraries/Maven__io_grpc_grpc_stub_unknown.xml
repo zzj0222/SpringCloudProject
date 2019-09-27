@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.grpc:grpc-stub:unknown">
+    <CLASSES>
+      <root url="jar://E:/repository/io/grpc/grpc-stub/unknown/grpc-stub-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/io/grpc/grpc-stub/unknown/grpc-stub-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/io/grpc/grpc-stub/unknown/grpc-stub-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

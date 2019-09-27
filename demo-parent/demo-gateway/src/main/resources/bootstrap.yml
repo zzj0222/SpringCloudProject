@@ -1,0 +1,22 @@
+
+
+spring:
+  application:
+    name: demo-gateaway
+  cloud:
+    config:
+      enabled: false
+    http:
+        multipart:
+           max-file-size: -1
+app:
+    id: demo-gateaway
+apollo:
+    bootstrap:
+      enabled: true
+      namespaces: application,GeiLi.jiayi-common
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://demo:demo!2018@demo-eureka-1:8762/eureka/,http://demo:demo!2018@demo-eureka-2:8763/eureka/

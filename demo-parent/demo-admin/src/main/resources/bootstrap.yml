@@ -1,0 +1,35 @@
+server:
+  port: 8206
+
+spring:
+  application:
+    name: demo-admin
+  cloud:
+    config:
+      discovery:
+        enabled: true            # 默认false，设为true表示使用注册中心中的configserver配置而不自己配置configserver的uri
+        serviceId: laiai-config-server  # 指定config server在服务发现中的serviceId，默认为：configserver
+      name: demo-admin
+      profile: dev
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8200/eureka
+
+
+swagger:
+  enable: true
+  host: 127.0.0.1:8206
+
+
+
+
+
+
+
+
+
+  
+

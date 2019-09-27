@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.demo:demo-grpc-lib:unknown">
+    <CLASSES>
+      <root url="jar://E:/repository/com/demo/demo-grpc-lib/unknown/demo-grpc-lib-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/com/demo/demo-grpc-lib/unknown/demo-grpc-lib-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/com/demo/demo-grpc-lib/unknown/demo-grpc-lib-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

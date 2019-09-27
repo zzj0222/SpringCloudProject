@@ -1,0 +1,6 @@
+encrypt:
+  keyStore:
+    location: classpath:/server.jks
+    password: qTvA5mzYUUgru3Hm
+    alias: ZZSjsrj6j7UAo12p
+    secret: Jy3lEzK0JR2V8DRD

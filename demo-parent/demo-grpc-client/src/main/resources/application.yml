@@ -1,0 +1,13 @@
+
+server:
+  port: 9081
+spring:
+  application:
+    name: demo-grpc-client
+  sleuth:
+    sampler:
+      probability: 1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://demo:demo!2018@demo-eureka-1:8762/eureka/,http://demo:demo!2018@demo-eureka-2:8763/eureka/

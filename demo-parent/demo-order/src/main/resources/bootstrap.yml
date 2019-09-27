@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demo-order
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: demo-config-server
+      name: demo-order
+      username: demo
+      password: demo2018
+eureka:
+  client:
+    service-url:
+      defaultZone: http://demo:demo!2018@demo-eureka-1:8762/eureka/,http://demo:demo!2018@demo-eureka-2:8763/eureka/
+

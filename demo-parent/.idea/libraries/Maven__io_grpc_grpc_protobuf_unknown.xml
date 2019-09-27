@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.grpc:grpc-protobuf:unknown">
+    <CLASSES>
+      <root url="jar://E:/repository/io/grpc/grpc-protobuf/unknown/grpc-protobuf-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/io/grpc/grpc-protobuf/unknown/grpc-protobuf-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/io/grpc/grpc-protobuf/unknown/grpc-protobuf-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

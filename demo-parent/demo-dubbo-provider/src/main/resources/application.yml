@@ -1,0 +1,48 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: demo-dubbo-provider
+
+
+
+management:
+  server:
+    port: 9091
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://demo:demo!2018@demo-eureka-1:8762/eureka/,http://demo:demo!2018@demo-eureka-2:8763/eureka/
+
+demo:
+  service:
+    version: 1.0-SNAPSHOT
+
+dubbo:
+  application:
+    name: demo-dubbo-provider
+    id: demo-dubbo-provider
+    qos-port: 22222
+    qos-enable: true
+  registry:
+      id: eureka-1
+      address: eureka://127.0.0.1:8762/eureka/
+      password: demo!2018
+      username: demo
+
+#  registry:
+#    id: eureka-2
+#    address: eureka://127.0.0.1:8763/eureka/
+#    password: demo!2018
+#    username: demo
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 20880
+    status: server
+  scan:
+    basePackages: com.demo.dubbo.provider.service
+
+

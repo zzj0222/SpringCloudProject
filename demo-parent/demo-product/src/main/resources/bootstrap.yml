@@ -1,0 +1,28 @@
+
+
+spring:
+  application:
+    name: demo-product
+  sleuth:
+    sampler:
+      probability: 1
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: demo-config-server
+      name: demo-product
+      username: demo
+      password: demo2018
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://demo:demo!2018@demo-eureka-1:8762/eureka/,http://demo:demo!2018@demo-eureka-2:8763/eureka/
+
+encrypt:
+  keyStore:
+    location: classpath:/server.jks
+    password: qTvA5mzYUUgru3Hm
+    alias: ZZSjsrj6j7UAo12p
+    secret: Jy3lEzK0JR2V8DRD

@@ -1,0 +1,31 @@
+server:
+  port: 8763
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: demo
+    password: demo!2018
+
+
+spring:
+  application:
+    name: demo-eureka-2
+
+
+eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 4000
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone:  http://${spring.security.user.name}:${spring.security.user.password}@demo-eureka-1:8762/eureka/
+
+
+  instance:
+    hostname: demo-eureka-2
+
+

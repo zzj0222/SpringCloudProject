@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: demo-auth
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: demo-config-server
+      name: demo-auth
+      username: demo
+      password: demo2018
+#  security:
+#    oauth2:
+#      client:
+#        clientId: zuul_server
+#        clientSecret: demosecret
+#        authorized-grant-types: authorization_code,refresh_token,password
+#        scope: openId
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://demo:demo!2018@demo-eureka-1:8762/eureka/,http://demo:demo!2018@demo-eureka-2:8763/eureka/

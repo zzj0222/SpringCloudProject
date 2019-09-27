@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../xxl-job-master/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-jfinal" />
+    <file type="web" url="file://$PROJECT_DIR$/../xxl-job-master/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-nutz" />
+    <file type="web" url="file://$PROJECT_DIR$/../xxl-job-master/xxl-job-master/xxl-job-executor-samples/xxl-job-executor-sample-spring" />
+    <file type="web" url="file://$PROJECT_DIR$/../xxl-job-master/xxl-rpc-master/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-client" />
+    <file type="web" url="file://$PROJECT_DIR$/../xxl-job-master/xxl-rpc-master/xxl-rpc-samples/xxl-rpc-sample-jfinal/xxl-rpc-sample-jfinal-server" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-eureka2/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-core/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-model/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-order/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-message/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-zinpkin/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-grpc-lib/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-product/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-member/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-security-core/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-grpc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-grpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-grpc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-grpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-provider-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-admin-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo/apollo-adminservice/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo/apollo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo/apollo-core/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo/apollo-biz/pom.xml" />
+        <option value="$PROJECT_DIR$/apollo/pom.xml" />
+        <option value="$PROJECT_DIR$/sofa-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/sofa-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/sofa-member/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-payment/pom.xml" />
+        <option value="$PROJECT_DIR$/../rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/../xxl-job-master/xxl-job-master/xxl-job-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/../xxl-job-master/xxl-job-master/xxl-job-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../xxl-job-master/xxl-job-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../xxl-job-master/xxl-rpc-master/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+server:
+  port: 9018
+
+management:
+  security:
+    enabled: false
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: demo
+    password: demo2018
+
+
+spring:
+  application:
+    name: demo-config-server
+  cloud:
+    bus:
+      trace:
+        enabled: true
+    config:
+      label: master
+      #profile: dev
+      server:
+        git:
+          searchPaths: config,config/demo-*
+          uri: https://github.com/zzj0222/demo-config.git
+          username: zzj19870301@163.com
+          password: '{cipher}AQBvjFpxUzoXaF4LtfusGVAbCAOPJ6Io8AYj0kinMAJUgYmmNkqv+1IMuAiUVVVIIVt/Ms4V4j3riIrNzRHZppDT6mkINN1cw3Qj4RPubF/SBvfDKIsy/NkBQdVjnq78iMxynyImiUu9IExpNSpOfqvgXLojHhH9RYhtKSCe5yW76MO4/iu3hJMCK7cmTorj4wmxJ1pHs9Tr+SVlRGLf/5gYWMC/aMUr6uUDPeB4g9kYg15KOY29ZwRMmPY5cardGg/lnF+9Xrt4GGS27EZs68uMtUNAyg5Gj7ZbqhWQjjpKqHVLDcBD5Frkpeu+zAp2yYNaFpf5gWkuuoK4PTrVlUcwpdxmcv+A/SdKizLzaDQ93k3UzsoiMTOmPQohM26wGlQ='
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://demo:demo!2018@demo-eureka-1:8762/eureka/,http://demo:demo!2018@demo-eureka-2:8763/eureka/
+  insance:
+    preferIpAddress: true
+    instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+
